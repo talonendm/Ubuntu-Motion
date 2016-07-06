@@ -128,6 +128,20 @@ Next, run the Dropbox daemon from the newly created .dropbox-dist folder.
 If you're running Dropbox on your server for the first time, you'll be asked to copy and paste a link in a working browser to create a new account or add your server to an existing account. Once you do, your Dropbox folder will be created in your home directory. Download this Python script to control Dropbox from the command line. For easy access, put a symlink to the script anywhere in your PATH.
 
 
+
+
+1606xx more some edits:
+
+aakko-HP:~$ This package provides a command-line tool and a Nautilus extension that integrates the Dropbox web service with your GNOME Desktop. 
+
+tar xjf ./nautilus-dropbox-1.6.1.tar.bz2
+
+tar xjf ./nautilus-dropbox-1.6.1.tar.bz2
+
+cd ./nautilus-dropbox-1.6.1; ./configure; make; make install;
+
+sudo apt-get update && sudo apt-get install pkgconfig
+
 151206
 
 # Detect motion in predefined areas (1 - 9). Areas are numbered like that:  1 2 3
