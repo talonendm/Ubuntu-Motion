@@ -271,7 +271,7 @@ ffmpeg_output_movies on
 
 # Use ffmpeg to make movies with only the pixels moving
 # object (ghost images) (default: off)
-ffmpeg_output_debug_movies off
+ffmpeg_output_debug_movies off  # ghost
 
 # Use ffmpeg to encode a timelapse movie
 # Default value 0 = off - else save frame every Nth second
