@@ -637,7 +637,7 @@ quiet on
 #####################################################################
 # Common Options for database features.
 # Options require database options to be active also.
-#####################################################################
+##################################################################### 
 
 # Log to the database when creating motion triggered picture file  (default: on)
 ; sql_log_picture on
