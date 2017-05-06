@@ -1,0 +1,8 @@
+worked for eee-pc Lubuntu 15.04   [170506]
+
+sudo apt-get remove spotify-client
+sudo apt-get -f install
+apt-get -f install
+sudo add-apt-repository "deb http://repository.spotify.com stable non-free"
+sudo apt-get -f install
+sudo apt-get install spotify-client
