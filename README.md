@@ -2,7 +2,20 @@
 Motion setup etc.
 
 
+## 2 / 2019
 
+T430s
+
+mkdir .motion
+
+sudo cp /etc/motion/motion.conf ~/.motion/motion.conf
+
+sudo nano ~/.motion/motion.conf
+
+Note: 
+
+Number of frames to capture after motion is no longer detected (default: 0)
+post_capture 0 - if e.g. frame rate 60 and here value 60.. records 60 figures..
 
 
 # some tests:
