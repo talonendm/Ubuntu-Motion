@@ -17,6 +17,20 @@ Note:
 Number of frames to capture after motion is no longer detected (default: 0)
 post_capture 0 - if e.g. frame rate 60 and here value 60.. records 60 figures..
 
+## 28/2/2019
+
+
+### dropbox
+
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+
+### dropbox python: 
+~/.dropbox-dist/dropboxd
+
+### ffmpeg:
+ffmpeg -framerate 24 -pattern_type glob -i '*.jpg' video.mp4
+
+
 
 # some tests:
 
